@@ -133,6 +133,7 @@ const arregloFn = arregloNumeros.forEach(function(numero, index, array){
 // const arregloFinal = arregloNumeros.map((a) =>`Numero : ${a * 2}`)
 
 const transformacion = (a) =>`Numero : ${a * 2}`
+
 // Forma Tres
 const arregloFinal = arregloNumeros.map(transformacion)
 
